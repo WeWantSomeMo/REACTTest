@@ -9,7 +9,6 @@ function NavbarSetup() {
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end">
           <Navbar.Text>
-            <a href="#login">Login</a>
           </Navbar.Text>
         </Navbar.Collapse>
       </Container>

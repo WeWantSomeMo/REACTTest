@@ -1,15 +1,15 @@
-import {
-  Link
-  } from "react-router-dom";
+
 import Form from 'react-bootstrap/Form';
+import {
+Link
+} from "react-router-dom";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-
-function LoginPage() {
+function Signup() {
   return (
-<Container>
+    <Container>
       <Row className="justify-content-md-center">
         <Col md={5} className="border">
             <Form className="p-4">
@@ -24,10 +24,10 @@ function LoginPage() {
                     <Form.Label>Password</Form.Label>
                     <Form.Control type="password" placeholder="Password" />
                 </Form.Group>
-                <Link to='/allgoals'>
+                <Link to='/'>
                 <button>Submit</button>
                 </Link>
-                <Link to='/register'>Don't have an account? Sign Up</Link>
+                <Link to='/'>Already have an account? Log in</Link>
             </Form>
         </Col>
       </Row>
@@ -35,4 +35,4 @@ function LoginPage() {
   );
 }
 
-export default LoginPage;
+export default Signup;

@@ -1,3 +1,9 @@
+<<<<<<< HEAD:src/components/DashboardAllGoalsPage.js
+function DashboardPage(){
+    return(<h1>This is DashboardAllGoalsPage</h1>)
+  }
+  export default DashboardPage;
+=======
 import {
   Link
 } from "react-router-dom";
@@ -68,3 +74,4 @@ function DashboardPage(){
 
 
 export default DashboardPage;
+>>>>>>> 0c415f97ffc4b647082d3ef4b2c5eb0d740ae6b2:Client/src/components/DashboardAllGoalsPage.js

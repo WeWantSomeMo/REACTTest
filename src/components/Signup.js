@@ -5,7 +5,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-function LoginPage() {
+function Signup() {
   return (
     <Container>
       <Row className="justify-content-md-center">
@@ -30,4 +30,4 @@ function LoginPage() {
   );
 }
 
-export default LoginPage;
+export default Signup;

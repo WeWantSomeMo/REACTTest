@@ -1,4 +1,4 @@
-import Button from 'react-bootstrap/Button';
+// import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import {
   Link
@@ -24,7 +24,9 @@ function LoginPage() {
                     <Form.Label>Password</Form.Label>
                     <Form.Control type="password" placeholder="Password" />
                 </Form.Group>
-                <Button variant="primary">Submit</Button>{' '}
+                <Link to='/allgoals'>
+                <button>Submit</button>
+                </Link>
                 <br/>
                 <p>If you don't have an account, please <Link to="/Signup">Sign up</Link>.</p>
             </Form>

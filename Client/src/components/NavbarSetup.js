@@ -1,6 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 
+
 function NavbarSetup() {
   return (
     <Navbar bg="primary" variant="dark">
@@ -9,7 +10,6 @@ function NavbarSetup() {
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end">
           <Navbar.Text>
-            <a href="#login">Login</a>
           </Navbar.Text>
         </Navbar.Collapse>
       </Container>

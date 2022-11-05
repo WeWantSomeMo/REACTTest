@@ -13,7 +13,7 @@ function App() {
       <div className="App">
         <NavbarSetup  />
         <Container>
-          <Row>
+          <Row className="justify-content-md-center">
             <Col md={5} className="border">
               <LoginPage  />
             </Col>

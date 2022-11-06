@@ -6,11 +6,25 @@
 
 // const app = express();
 
+//allowing cross-origin requests
+//app.use(cors());
+
+//connect to mlab database
+//make sure to replace my db string & creds with our own
+//mongoose.connect('db string');
+
+//mongoose.connectoin.once('open',()=>){
+  //  console.log('connected to database');
+//});
+
 // app.use('graphql', graphqlHTTP({
 //    schema, 
 //    graphiql: process.env.NODE_ENV === 'development', 
 // }))
-
+//app.use('/graphql',graphqlHTTP({
+    //schema,
+    //graphiql:true
+//}));
 // app.listen(port, console.log('server listening on port ${port'));
 
 var express = require('express');

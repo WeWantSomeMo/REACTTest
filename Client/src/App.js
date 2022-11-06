@@ -22,11 +22,10 @@ function App() {
         <BrowserRouter>
         <Routes>
           <Route path="/" element= {<LoginPage/>} />
-          <Route path="/allgoals" element= {<DashboardAGPage/>} />
+          <Route path="/allgoals/:login" element= {<DashboardAGPage/>} />
           <Route path="/register" element ={<Signup/>} />
-          <Route path="/newgoals" elenent= {<NewGoals/>} />
+          <Route path="/newgoals" element= {<NewGoals/>} />
           <Route path="/Signup" element ={<Signup/>} />
-          <Route path="/NewGoals" element= {<NewGoals/>} />
         </Routes>
         </BrowserRouter>
       </div>

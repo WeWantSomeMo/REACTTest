@@ -10,7 +10,7 @@ import NavbarSetup from './components/NavbarSetup';
 import LoginPage from './components/LoginPage';
 import DashboardNGPage from './components/DashboardNewGoalPage';
 import DashboardAGPage from './components/DashboardAllGoalsPage'
-import Signup from './components/Signup.js'
+import Signup from './components/Signup'
 
 function App() {
   return (

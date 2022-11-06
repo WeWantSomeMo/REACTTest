@@ -22,15 +22,15 @@ export default function NewGoals() {
         </Card.Text>
         <Card.Text>
         <FaRegMoneyBillAlt/> Amount to Goal: 
-        <input className='box' type="number" name="name" />
+        <input className='box' type="text" name="name" />
         </Card.Text>
         <Card.Text>
         <BsPiggyBank/>: 
-        <input className='box' type="number" name="name" />
+        <input className='box' type="text" name="name" />
         </Card.Text>
         <Card.Text>
         Input Time Frame 
-        <input className='box' type="number" name="name" />
+        <input className='box' type="text" name="name" />
         </Card.Text>
         <Dropdown>
             <Dropdown.Toggle variant="success" id="dropdown-basic">

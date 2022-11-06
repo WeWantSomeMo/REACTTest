@@ -9,6 +9,8 @@ import Col from 'react-bootstrap/Col';
 
 function LoginPage() {
   return (
+  <>
+    <h1>Welcome to Count Your Pennies! Please log in!</h1>
     <Container>
       <Row className="justify-content-md-center">
         <Col md={5} className="border">
@@ -33,6 +35,7 @@ function LoginPage() {
         </Col>
       </Row>
     </Container>
+  </>
   );
 }
 

@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
@@ -5,6 +6,9 @@ import {
   Link
 } from "react-router-dom";
 
+=======
+import Button from 'react-bootstrap/Button';
+>>>>>>> Stashed changes
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -27,10 +31,13 @@ function Signup() {
                     <Form.Label>Password</Form.Label>
                     <Form.Control type="password" placeholder="Password" />
                 </Form.Group>
+<<<<<<< Updated upstream
                 <Link to='/'>
                 <button>Submit</button>
                 </Link>
                 <Link to='/'>Already have an account? Log in</Link>
+=======
+>>>>>>> Stashed changes
                 <Button variant="primary">Submit</Button>{' '}
             </Form>
         </Col>

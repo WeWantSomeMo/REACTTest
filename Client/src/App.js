@@ -23,8 +23,13 @@ function App() {
         <Routes>
           <Route path="/" element= {<LoginPage/>} />
           <Route path="/allgoals" element= {<DashboardAGPage/>} />
+<<<<<<< Updated upstream
           <Route path="/register" element ={<Signup/>} />
           <Route path="/newgoals" elenent= {<NewGoals/>} />
+=======
+          <Route path="/Signup" element ={<Signup/>} />
+          <Route path="/NewGoals" element= {<NewGoals/>} />
+>>>>>>> Stashed changes
         </Routes>
         </BrowserRouter>
       </div>

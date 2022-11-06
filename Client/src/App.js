@@ -1,4 +1,7 @@
 import './App.css';
+//import React, {Component} from 'react';
+//import ApolloClient from 'apolloboost';
+//import {ApolloProvider} from 'react-apollo';
 
 import {
   BrowserRouter,

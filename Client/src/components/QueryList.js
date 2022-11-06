@@ -11,7 +11,6 @@
 // }`
 
 
-<<<<<<< Updated upstream
 class QueryList extends Component {
     render() {
         return (
@@ -23,7 +22,6 @@ class QueryList extends Component {
         )
     }
 }
-=======
 // class QueryList extends Component {
 //     render() {
 //         console.log(this.props);
@@ -36,7 +34,6 @@ class QueryList extends Component {
 //         )
 //     }
 // }
->>>>>>> Stashed changes
 
 
 // export default graphql(getQuery)(QueryList);
